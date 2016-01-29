@@ -19,4 +19,4 @@ file(GLOB Firework_SRC
   "src/*.cpp"
 )
 
-add_library(firework ${Firework_SRC})
+add_executable(helloworld "../example/ex1.cpp")
